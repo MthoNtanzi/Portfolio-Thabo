@@ -18,10 +18,11 @@ export default {
     }
 </script>
 
-<style>
+<style scoped>
     .footer{
         display: grid;
         grid-template-columns: 3fr 1fr;
+        padding: 1.25rem;
     }
     .footer img{
         width: 100%;
