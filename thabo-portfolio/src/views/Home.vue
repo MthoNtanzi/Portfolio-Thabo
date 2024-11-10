@@ -24,14 +24,17 @@
      font-size: 1rem; 
      margin-top:2.5rem ;
   }
-  h2{font-size: 4rem;}
+  h2{
+    text-transform: uppercase;
+  }
   .intro .role{
     background: #38b6ff;
     color:#161616;
     display: inline-block;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     font-size: 20px;
     font-weight: 700;
+    text-transform: uppercase;
   }
 
 

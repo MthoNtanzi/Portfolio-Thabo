@@ -25,6 +25,7 @@
         text-decoration: none;
         font-size: 16px;
         letter-spacing: 0.08rem;
+        text-transform: uppercase;
     }
     #main-link{
         background-color: #38b6ff;
