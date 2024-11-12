@@ -41,9 +41,11 @@
 
   hr{
     width: 40%;
-    border-top: 0.7rem solid #38b6ff;;
+    border-top: 0.4rem solid #38b6ff;;
     justify-self: flex-start;
     margin: 0;
+    margin-top:-1.5rem;
+    margin-bottom: 2.4rem;
   }
   .mySkills{
     display: flex;

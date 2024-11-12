@@ -9,6 +9,7 @@
     </div>
     
     <div class="experience">
+      
       <!-- First grid row -->
       <img src="../assets/chevron-right-double.svg" alt="">
       <div>
@@ -16,6 +17,7 @@
         <p>Role 2022-2024</p>
       </div>
       <p>My duties included Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut hic harum maxime, eveniet accusamus iusto, iure maiores, facere quod dolore voluptatem vitae eius placeat debitis nulla ad corrupti atque.</p>
+      
       <!-- Next grid row -->
       <img src="../assets/chevron-right-double.svg" alt="">
       <div>
@@ -23,7 +25,7 @@
         <p>Role 2022-2024</p>
       </div>
       <p>My duties included Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut hic harum maxime, eveniet accusamus iusto, iure maiores, facere quod dolore voluptatem vitae eius placeat debitis nulla ad corrupti atque.</p>
-      <!-- Next grid row -->
+   
       <!-- Next grid row -->
       <img src="../assets/chevron-right-double.svg" alt="">
       <div>
@@ -31,6 +33,7 @@
         <p>Role 2022-2024</p>
       </div>
       <p>My duties included Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ut hic harum maxime, eveniet accusamus iusto, iure maiores, facere quod dolore voluptatem vitae eius placeat debitis nulla ad corrupti atque.</p>
+    
     </div>
   </div>
 </template>
@@ -70,9 +73,9 @@
 
     hr{
     width: 80%;
-    border-top: 0.7rem solid #38b6ff;;
+    border-top: 0.5rem solid #38b6ff;;
     justify-self: flex-start;
     margin: 0;
-  }
+    }
   </style>
   
