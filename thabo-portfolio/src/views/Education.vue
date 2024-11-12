@@ -36,10 +36,11 @@
   .heading{
     text-align: right;
     font-size: 3.5rem;
+    margin-right: 12rem;
   }
   hr{
     width: 40%;
-    border-top: 0.7rem solid #38b6ff;;
+    border-top: 0.7rem solid #38b6ff;
     justify-self: flex-start;
     margin: 0;
   }
