@@ -25,6 +25,10 @@
     gap: 2rem;
     padding: 2rem 3rem;
   }
+  .about div{
+    width: 40rem;
+  }
+
   h1{
     font-size: 3rem;
     text-transform: uppercase;

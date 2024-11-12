@@ -14,7 +14,8 @@
   .mainDiv{
     display: flex;
     padding: 2rem 3rem;
-    gap: 1rem;
+    gap: 1rem 3rem;
+    max-width: 70rem;
   }
   .intro *{
     margin-bottom: 2.5rem;
@@ -26,6 +27,7 @@
   }
   h2{
     text-transform: uppercase;
+    font-size: 3rem;
   }
   .intro .role{
     background: #38b6ff;
@@ -37,7 +39,13 @@
     text-transform: uppercase;
   }
 
-
+  img{
+    /* position: relative;
+    top: 8rem;
+    width: auto;
+    height: 40rem;
+    z-index: -1; */
+  }
   
 </style>
 
