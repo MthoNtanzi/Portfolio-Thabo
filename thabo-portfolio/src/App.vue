@@ -1,6 +1,9 @@
 <template>
   <Navbar />
-  <router-view />
+  <div class="router-container">
+    <router-view />
+  </div>
+  
   <MyFooter />
   
 </template>
@@ -17,8 +20,4 @@ export default {
 }
 </script>
 
-<style>
-/* #app{
-  min-height: 100%;
-} */
-</style>
+

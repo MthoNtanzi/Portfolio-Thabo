@@ -13,7 +13,6 @@
 <style scoped>
   .mainDiv{
     display: flex;
-    padding: 2rem 3rem;
     gap: 1rem 3rem;
     max-width: 70rem;
   }

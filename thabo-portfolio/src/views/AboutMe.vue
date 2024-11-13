@@ -23,7 +23,6 @@
   .about{
     display: flex;
     gap: 2rem;
-    padding: 2rem 3rem;
   }
   .about div{
     width: 40rem;

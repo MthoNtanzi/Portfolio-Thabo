@@ -29,10 +29,7 @@
 </template>
 
 <style scoped>
-  .education{
-    padding: 1.5rem 2.5rem;
-
-  }
+  
   .heading{
     text-align: right;
     font-size: 3.5rem;
