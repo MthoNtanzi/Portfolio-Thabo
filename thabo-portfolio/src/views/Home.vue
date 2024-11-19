@@ -4,7 +4,7 @@
       <h1>Hello ///</h1>
       <h2>I'm Thabo Chauke</h2>
       <p class="role">Software Developer</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae quo quos nobis veniam nulla sunt ipsum, ut suscipit totam explicabo atque odit doloribus ducimus numquam officiis, ullam ex voluptatum, ratione cumque tempora a voluptatem id!</p>
+      <p class="lightIntro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae quo quos nobis veniam nulla sunt ipsum, ut suscipit totam explicabo atque odit doloribus ducimus numquam officiis, ullam ex voluptatum, ratione cumque tempora a voluptatem id!</p>
     </div>
     <img src="../assets/profile.png" alt="My progile image" srcset="">
   </div>
@@ -14,7 +14,7 @@
   .mainDiv{
     display: flex;
     gap: 1rem 3rem;
-    max-width: 70rem;
+    max-width: 55rem;
   }
   .intro *{
     margin-bottom: 2.5rem;
@@ -39,12 +39,41 @@
   }
 
   img{
-    /* position: relative;
-    top: 8rem;
-    width: auto;
-    height: 40rem;
-    z-index: -1; */
+    max-width: 15rem;
+    height: auto;
+    z-index: -1;
   }
+
+  
+  @media (max-width: 800px) {
+    .mainDiv{
+      flex-direction: column;
+    }
+
+    h2{
+      font-size: 1.4rem;
+    }
+
+    .intro .role{
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .lightIntro{
+      font-size: x-small;
+    }
+
+    img{
+      max-width: 15rem;
+      height: auto;
+      z-index: -1;
+      margin: auto;
+    }
+  }
+
   
 </style>
 

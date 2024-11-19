@@ -22,3 +22,9 @@ body{
     }
 }
 
+@media (max-width: 800px) {
+    .router-container{
+        padding: 0.5rem 1rem;
+    }    
+}
+

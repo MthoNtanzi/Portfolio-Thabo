@@ -74,7 +74,7 @@
     }
 
     /* Show Desktop Navbar on larger screens */
-    @media (min-width: 768px) {
+    @media (min-width: 801px) {
         .desktop-nav {
         display: flex;
         }
@@ -84,7 +84,7 @@
     }
 
     /* Show Mobile Burger Menu on smaller screens */
-    @media (max-width: 767px) {
+    @media (max-width: 800px) {
         .desktop-nav {
         display: none;
         }
