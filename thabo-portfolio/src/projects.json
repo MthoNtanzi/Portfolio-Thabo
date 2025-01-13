@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "project_name": "Project Name",
+    "project_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.",
+    "image_path": "projects.jpg",
+    "repo_link": "",
+    "host_link": ""
+  },
+  {
+    "id": 2,
+    "project_name": "Project Name 2",
+    "project_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.",
+    "image_path": "projects.jpg",
+    "repo_link": "",
+    "host_link": ""
+  },
+  {
+    "id": 3,
+    "project_name": "Project Name 3",
+    "project_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.",
+    "image_path": "projects.jpg",
+    "repo_link": "",
+    "host_link": ""
+  },
+  {
+    "id": 3,
+    "project_name": "Project Name 4",
+    "project_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.",
+    "image_path": "projects.jpg",
+    "repo_link": "",
+    "host_link": ""
+  }
+]
+
+  

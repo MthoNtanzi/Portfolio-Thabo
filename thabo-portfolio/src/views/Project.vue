@@ -1,33 +1,37 @@
+<script setup>
+import { computed, ref } from 'vue'
+import ProjectCard from '@/components/ProjectCard.vue';
+import projectData from '@/projects.json'
+
+const projects = ref(projectData)
+
+function shuffleArray(array) {
+  const shuffled = [...array]
+
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled
+}
+
+const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
+</script>
+
 <template>
   <div class="project">
     <div class="heading">
       <p>My Projects</p>
-      <p>2020-202X</p>
+      <p>2023-202X</p>
     </div>
     <hr/>
   
   <div class="myProjects">
-    <!-- Project 1 -->
-    <div class="projectTemplateClass">
-      <img src="../assets/projects.jpg" alt="">
-      <h1>My project</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.</p>
-    </div>
-    <!-- End project 1 -->
-    <!-- Project 2 -->
-    <div class="projectTemplateClass">
-      <img src="../assets/projects.jpg" alt="">
-      <h1>My project</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.</p>
-    </div>
-    <!-- End project 2 -->
-    <!-- Project 3 -->
-    <div class="projectTemplateClass">
-      <img src="../assets/projects.jpg" alt="">
-      <h1>My project</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora architecto inventore quam harum iure aperiam sunt tenetur ipsum in quibusdam.</p>
-    </div>
-    <!-- End project 3 -->
+
+    <!-- Projects -->
+    <ProjectCard v-for="project in randomProjects" :key="project.id" :project="project" />
+    <!-- End Projects  -->
+     
   </div>
 </div>
 </template>
