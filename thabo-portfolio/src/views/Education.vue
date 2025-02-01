@@ -64,5 +64,30 @@
   .about{
     max-width: 35rem;
   }
+
+  @media screen and (max-width: 768px) {
+    .heading {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-right: 0;
+    }
+
+    .certificates {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+
+    .credentials ul {
+      text-align: left;
+      padding: 0 1rem;
+    }
+  }
+
 </style>
   

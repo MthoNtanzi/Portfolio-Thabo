@@ -60,4 +60,26 @@
       padding: 0.25rem 0.5rem;
       
   }
+
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .about img {
+      width: 15rem;
+      height: auto;
+    }
+
+    .about div {
+      width: 90%;
+    }
+
+    .mySkills {
+      justify-content: center;
+    }
+  }
+
 </style>
