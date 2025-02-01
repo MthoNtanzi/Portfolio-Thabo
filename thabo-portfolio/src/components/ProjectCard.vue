@@ -22,26 +22,9 @@ function resolvePath(path) {
 </template>
 
 <style>
-  .myProjects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2rem;
-  }
-
-  .projectTemplateClass{
-    max-width: 20rem;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-  }
-
   .projectTemplateClass img {
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 200px;
     object-fit: cover;
     border-radius: 8px;

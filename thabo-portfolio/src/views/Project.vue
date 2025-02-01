@@ -64,20 +64,52 @@ const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
     margin-bottom: 0.5rem;
   }
 
-  .myProjects{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .myProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 2rem;
-    margin: auto;
+    justify-content: center;
   }
   
   .projectTemplateClass{
+    width: 100%;
     max-width: 20rem;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
   }
 
-  .projectTemplateClass img{
-    max-width: 20rem;
+
+  @media (max-width: 768px) {
+  .heading p:first-child {
+    font-size: 2rem;
   }
+
+  .heading p:last-child {
+    font-size: 3rem;
+  }
+
+  .myProjects {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .projectTemplateClass {
+    max-width: 280px;
+  }
+
+  .projectTemplateClass h1 {
+    font-size: 1.2rem;
+    max-height: 3rem;
+  }
+
+  .projectTemplateClass img {
+    max-width: 280px;
+    height: 280px;
+  }
+}
+
 </style>
   
