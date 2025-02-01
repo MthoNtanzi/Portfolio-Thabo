@@ -59,7 +59,9 @@ const person = reactive({
     .details{
         display: flex;
         justify-content: center;
-        gap: 2.4rem
+        gap: 2.4rem;
+        flex-wrap: wrap;
+        margin-top: 2rem;
     }
 
     .type{
@@ -70,7 +72,9 @@ const person = reactive({
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 4rem;
+        width: 3rem;
+        max-width: 100%;
+        height: auto;
     }
 
     a {
@@ -86,5 +90,46 @@ const person = reactive({
 
     a:hover {
         color: blue;
+    }
+
+    .type p {
+        font-size: 1rem;
+    }
+
+    .type h1 {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+
+    @media (max-width: 768px) {
+        .details {
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .type img {
+            width: 3rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .headings {
+            font-size: 1.5rem;
+            padding: 1.5rem 2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .type h1 {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .type p {
+            font-size: 0.9rem;
+        }   
     }
 </style>
