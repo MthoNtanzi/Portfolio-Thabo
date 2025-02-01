@@ -22,12 +22,29 @@ function resolvePath(path) {
 </template>
 
 <style>
-  .projectTemplateClass{
-    max-width: 20rem;
+  .myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
   }
 
-  .projectTemplateClass img{
+  .projectTemplateClass{
     max-width: 20rem;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .projectTemplateClass img {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
   }
 
   a {
@@ -46,11 +63,26 @@ function resolvePath(path) {
     text-decoration: underline;
   }
 
-  h1 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 2rem;
+  .projectTemplateClass h1 {
+    font-size: 1.5rem;
+    max-height: 5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp:initial;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: center;
+  }
+
+  .projectTemplateClass p {
+    max-height: 6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp:initial;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
   }
 
   .pi {
