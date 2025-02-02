@@ -4,16 +4,16 @@
     <div>
       <h1>My Biography</h1>
       <hr/>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores earum, autem accusamus perferendis modi consectetur, aliquam suscipit, commodi tenetur ex facere corrupti repudiandae quidem fugiat id obcaecati consequuntur nihil placeat. Vel officia rerum veniam officiis.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro quibusdam aut omnis ex at labore molestias quisquam!</p>
+      <p>I&apos;m a software developer with a passion for backend systems, automation, and testing. My journey began with an NQF Level 5 certification in IT Systems Development, where I built a strong foundation in software engineering. I later expanded my knowledge through CS50, refining my problem-solving skills. With hands-on experience in multiple programming languages and frameworks, I thrive on building efficient, scalable applications that solve real-world problems. I&apos;m always eager to explore new technologies and enhance my expertise.</p>
+      <p>Beyond development, I hold an FMVA certification, blending technical and financial insights. I enjoy working on challenging projects, constantly improving my skills, and sharing knowledge with the tech community. My goal is to create impactful solutions through continuous learning and innovation.</p>
       <h2>Skills & Tools</h2>
       <div class="mySkills">
         <p>Python</p>
         <p>Java</p>
         <p>C#</p>
-        <p>Django</p>
+        <p>Git</p>
         <p>Flask</p>
-        <p>VSCode</p>
+        <p>TypeScript</p>
       </div>
     </div>
   </div>

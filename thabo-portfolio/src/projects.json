@@ -27,7 +27,7 @@
       "id": 4,
       "project_name": "Word Counter (C)",
       "project_description": "A lightweight CLI tool that counts words in a given text input or file.",
-      "image_path": "projects.jpg",
+      "image_path": "word-counter.jpg",
       "repo_link": "https://github.com/ThaboChauke/word-counter-cli.git",
       "host_link": ""
   },
@@ -43,7 +43,7 @@
       "id": 6,
       "project_name": "Online Quiz Platform (Flask)",
       "project_description": "A web-based quiz platform that allows users to take quizzes on different topics.",
-      "image_path": "projects.jpg",
+      "image_path": "quiz.jpg",
       "repo_link": "https://github.com/ThaboChauke/quiz-web-based-app",
       "host_link": "https://quiz-web-based-app.onrender.com/"
   }

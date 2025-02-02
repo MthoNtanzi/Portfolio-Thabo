@@ -62,6 +62,7 @@
   }
 
   .credentials h2 {
+    color: #38b6ff;
     text-align:start;
   }
 
