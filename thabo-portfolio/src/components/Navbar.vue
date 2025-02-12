@@ -6,7 +6,7 @@
             <router-link active-class="isActive" to="/about">About Me</router-link>
             <router-link active-class="isActive" to="/education">Education</router-link>
             <!-- <router-link active-class="isActive" to="/experience">Experience</router-link> -->
-            <router-link active-class="isActive" to="/project">Project</router-link>
+            <router-link active-class="isActive" to="/project">Projects</router-link>
             <router-link active-class="isActive" to="/contact">Contact</router-link>
             <img src="../assets/design.svg" alt="" srcset="">
         </nav>
@@ -17,7 +17,7 @@
                 <router-link active-class="isActive" to="/about">About Me</router-link>
                 <router-link active-class="isActive" to="/education">Education</router-link>
                 <!-- <router-link active-class="isActive" to="/experience">Experience</router-link> -->
-                <router-link active-class="isActive" to="/project">Project</router-link>
+                <router-link active-class="isActive" to="/project">Projects</router-link>
                 <router-link active-class="isActive" to="/contact">Contact</router-link>
                 <img src="../assets/design.svg" alt="Logo" class="menu-logo">
             </div>

@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import ProjectCard from '@/components/ProjectCard.vue';
 import projectData from '@/projects.json'
+import { RouterLink } from 'vue-router';
 
 const projects = ref(projectData)
 
@@ -33,6 +34,11 @@ const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
     <!-- End Projects  -->
      
   </div>
+
+  <div class="button-container">
+    <RouterLink to="/projects" class="full-width-btn">More Projects</RouterLink>
+  </div>
+
 </div>
 </template>
 
@@ -80,6 +86,27 @@ const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+  }
+
+  .button-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .full-width-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .full-width-btn:hover {
+    background-color: #0056b3;
   }
 
 

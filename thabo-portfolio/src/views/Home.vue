@@ -4,7 +4,7 @@
       <h1>Hello ///</h1>
       <h2>I'm Thabo Chauke</h2>
       <p class="role">Software Developer</p>
-      <p class="lightIntro">Welcome to my portfolio! I&apos;m a passionate developer specializing in backend systems, automation, and testing. With expertise in multiple languages and frameworks, I build efficient, scalable applications. Always eager to learn, I take on projects that challenge me and push my skills forward. Let&apos;s create something amazing together!"</p>
+      <p class="lightIntro">Welcome to my portfolio! I&apos;m a passionate developer specializing in backend systems, automation, and testing. With expertise in multiple languages and frameworks, I build efficient, scalable applications. Always eager to learn, I take on projects that challenge me and push my skills forward. Let&apos;s create something amazing together!</p>
     </div>
     <img src="../assets/profile.png" alt="My profile image" srcset="">
   </div>
