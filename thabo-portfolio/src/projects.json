@@ -1,0 +1,50 @@
+[
+  {
+      "id": 1,
+      "project_name": "To-Do List Application",
+      "project_description": "A task management app allowing users to create, update, and delete tasks with status tracking.",
+      "image_path": "todo_list.jpg",
+      "repo_link": "https://github.com/ThaboChauke/To_do_app",
+      "host_link": ""
+  },
+  {
+      "id": 2,
+      "project_name": "Blackjack Game",
+      "project_description": "A single-page Blackjack game with betting functionality, designed for an optimal user experience.",
+      "image_path": "blackjack.jpg",
+      "repo_link": "https://github.com/ThaboChauke/Blackjack",
+      "host_link": "https://blackjackts.netlify.app/"
+  },
+  {
+      "id": 3,
+      "project_name": "Number Guessing Game (C)",
+      "project_description": "A simple command-line game where the user guesses a randomly generated number.",
+      "image_path": "number_guessing.jpg",
+      "repo_link": "https://github.com/ThaboChauke/number-guessing-game-cli",
+      "host_link": ""
+  },
+  {
+      "id": 4,
+      "project_name": "Word Counter (C)",
+      "project_description": "A lightweight CLI tool that counts words in a given text input or file.",
+      "image_path": "word-counter.jpg",
+      "repo_link": "https://github.com/ThaboChauke/word-counter-cli.git",
+      "host_link": ""
+  },
+  {
+      "id": 5,
+      "project_name": "Task Manager API (Flask)",
+      "project_description": "A REST API for managing tasks, featuring authentication and CRUD operations.",
+      "image_path": "task_manager.jpg",
+      "repo_link": "https://github.com/ThaboChauke/Task-Manager-API",
+      "host_link": "https://task-manager-api-o274.onrender.com/"
+  },
+  {
+      "id": 6,
+      "project_name": "Online Quiz Platform (Flask)",
+      "project_description": "A web-based quiz platform that allows users to take quizzes on different topics.",
+      "image_path": "quiz.jpg",
+      "repo_link": "https://github.com/ThaboChauke/quiz-web-based-app",
+      "host_link": "https://quiz-web-based-app.onrender.com/"
+  }
+]

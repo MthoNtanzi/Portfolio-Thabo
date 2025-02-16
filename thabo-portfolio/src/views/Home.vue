@@ -1,12 +1,12 @@
 <template>
   <div class="mainDiv">
     <div class="intro">
-      <h1>Hello ///</h1>
+      <h1>Hello &#47;&#47;&#47;</h1>
       <h2>I'm Thabo Chauke</h2>
       <p class="role">Software Developer</p>
-      <p class="lightIntro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quae quo quos nobis veniam nulla sunt ipsum, ut suscipit totam explicabo atque odit doloribus ducimus numquam officiis, ullam ex voluptatum, ratione cumque tempora a voluptatem id!</p>
+      <p class="lightIntro">Welcome to my portfolio! I&apos;m a passionate developer specializing in backend systems, automation, and testing. With expertise in multiple languages and frameworks, I build efficient, scalable applications. Always eager to learn, I take on projects that challenge me and push my skills forward. Let&apos;s create something amazing together!</p>
     </div>
-    <img src="../assets/profile.png" alt="My progile image" srcset="">
+    <img src="../assets/profile_1.png" alt="Profile picture of Thabo Chauke, Software Developer" srcset="">
   </div>
 </template>
 
@@ -39,8 +39,11 @@
   }
 
   img{
-    max-width: 15rem;
+    width: 100%;
+    max-width: 20rem;
     height: auto;
+    /* object-fit: contain;
+    flex-shrink: 0; */
     z-index: -1;
   }
 

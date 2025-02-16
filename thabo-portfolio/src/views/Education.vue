@@ -1,25 +1,25 @@
 <template>
     <div class="education">
-      <h1 class="heading">2020 - 2019</h1>
+      <h1 class="heading">2023-202X</h1>
       <div class="certificates">
         <div class="about">
           <h1>Education</h1>
           <hr/>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus ipsa at accusamus vero quisquam voluptates ad vitae recusandae rem nihil nisi consequatur ratione, error, cumque quas cupiditate esse neque sapiente! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis magnam eligendi culpa!</p>
+          <p>My learning journey blends software development, computer science, and financial analysis. I earned an NQF Level 5 certification in IT Systems Development, strengthening my technical foundation before diving deeper into CS50. With additional expertise in financial modeling, I&apos;m always expanding my skill set to tackle real-world challenges.</p>
         </div>
         <div class="credentials">
           <ul>
             <li>
-              <h2>My Certificate</h2>
-              <p>School | 2020</p>
+                <h2>CS50's Introduction to Computer Science</h2>
+                <p>Harvard University (edX) | 2025</p>
             </li>
             <li>
-              <h2>My Certificate</h2>
-              <p>School | 2020</p>
+              <h2>Information Technology (Systems Development)</h2>
+              <p>WeThinkCode_ (Holdings NPC) |National Certificate:  NQF Level 5</p>
             </li>
             <li>
-              <h2>My Certificate</h2>
-              <p>School | 2020</p>
+              <h2>Financial Modeling & Valuation Analyst (FMVA)®</h2>
+              <p>Corporate Finance Institute® (CFI) | 2023</p>
             </li>
           </ul>
 
@@ -34,6 +34,10 @@
     text-align: right;
     font-size: 3.5rem;
     margin-right: 12rem;
+    justify-content: space-between;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
   }
   hr{
     width: 40%;
@@ -61,8 +65,51 @@
     margin: 0;
   }
 
+  .credentials h2 {
+    color: #38b6ff;
+    text-align:start;
+  }
+
   .about{
     max-width: 35rem;
   }
+
+  @media screen and (max-width: 768px) {
+    hr {
+      width: 100%;
+      max-width: 15rem;
+    }
+    .heading {
+      font-size: 2rem;
+      margin: 0 auto;
+    }
+
+    .certificates {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .about {
+      max-width: 100%;
+      padding: 0 1rem;
+    }
+
+    .credentials ul {
+      text-align: left;
+      width: 100%;
+      max-width: 30rem;
+      margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .certificates {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+
 </style>
   

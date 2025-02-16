@@ -5,6 +5,7 @@ import Education from '../views/Education.vue'
 import Experience from '../views/Experience.vue'
 import Project from '../views/Project.vue'
 import Contact from '../views/Contact.vue'
+import ProjectsPlural from '@/views/ProjectsPlural.vue'
 
 const routes = [
     {path: '/', name: 'home', component: Home},
@@ -12,7 +13,8 @@ const routes = [
     {path: '/education', education: 'home', component: Education},
     {path: '/experience', name: 'experience', component: Experience},
     {path: '/project', name: 'project', component: Project},
-    {path: '/contact', name: 'contact', component: Contact}
+    {path: '/contact', name: 'contact', component: Contact},
+    {path: '/projects', name: 'projects', component: ProjectsPlural}
 ]
 
 const router = createRouter({

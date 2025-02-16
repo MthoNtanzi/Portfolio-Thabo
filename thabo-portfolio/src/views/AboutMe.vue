@@ -1,19 +1,18 @@
 <template>
   <div class="about">
-    <img src="../assets/profile2.jpg" alt="">
+    <img src="../assets/profile_2.png" alt="">
     <div>
       <h1>My Biography</h1>
       <hr/>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores earum, autem accusamus perferendis modi consectetur, aliquam suscipit, commodi tenetur ex facere corrupti repudiandae quidem fugiat id obcaecati consequuntur nihil placeat. Vel officia rerum veniam officiis.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque porro quibusdam aut omnis ex at labore molestias quisquam!</p>
+      <p>I&apos;m a software developer specializing in backend systems, automation, and testing. With an NQF Level 5 certification in IT Systems Development and CS50 experience, I&apos;ve built a strong foundation in software engineering and problem-solving. I also hold an FMVA certification, combining technical and financial expertise. Passionate about continuous learning, I thrive on challenging projects and building impactful solutions.</p>
       <h2>Skills & Tools</h2>
       <div class="mySkills">
         <p>Python</p>
         <p>Java</p>
         <p>C#</p>
-        <p>Django</p>
+        <p>Git</p>
         <p>Flask</p>
-        <p>VSCode</p>
+        <p>TypeScript</p>
       </div>
     </div>
   </div>
@@ -60,4 +59,26 @@
       padding: 0.25rem 0.5rem;
       
   }
+
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .about img {
+      width: 15rem;
+      height: auto;
+    }
+
+    .about div {
+      width: 90%;
+    }
+
+    .mySkills {
+      justify-content: center;
+    }
+  }
+
 </style>
