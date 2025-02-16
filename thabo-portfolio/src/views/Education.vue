@@ -1,6 +1,6 @@
 <template>
     <div class="education">
-      <h1 class="heading">2023 - 202X</h1>
+      <h1 class="heading">2023-202X</h1>
       <div class="certificates">
         <div class="about">
           <h1>Education</h1>
@@ -34,6 +34,10 @@
     text-align: right;
     font-size: 3.5rem;
     margin-right: 12rem;
+    justify-content: space-between;
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
   }
   hr{
     width: 40%;
@@ -71,10 +75,13 @@
   }
 
   @media screen and (max-width: 768px) {
+    hr {
+      width: 100%;
+      max-width: 15rem;
+    }
     .heading {
-      text-align: center;
-      font-size: 2.5rem;
-      margin-right: 0;
+      font-size: 2rem;
+      margin: 0 auto;
     }
 
     .certificates {
@@ -90,9 +97,19 @@
 
     .credentials ul {
       text-align: left;
-      padding: 0 1rem;
+      width: 100%;
+      max-width: 30rem;
+      margin: auto;
     }
   }
+
+  @media screen and (max-width: 1024px) {
+    .certificates {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
 
 </style>
   

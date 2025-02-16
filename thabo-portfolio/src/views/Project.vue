@@ -111,12 +111,19 @@ const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
 
 
   @media (max-width: 768px) {
+    .heading {
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+  }
+
   .heading p:first-child {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
   .heading p:last-child {
-    font-size: 3rem;
+    font-size: 2.5rem; 
   }
 
   .myProjects {

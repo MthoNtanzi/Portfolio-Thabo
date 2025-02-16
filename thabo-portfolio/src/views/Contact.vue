@@ -3,7 +3,7 @@ import { reactive } from 'vue';
 
 const person = reactive({
     phoneNumber: '+27 84 968 4995',
-    email: 'chaukethabo@gmail.com',
+    email: 'chaukethabo16@gmail.com',
     linkedin: 'https://www.linkedin.com/in/thabo-chauke/',
     github: 'https://github.com/ThaboChauke',
     address: 'Based in Johannesburg, SA'
