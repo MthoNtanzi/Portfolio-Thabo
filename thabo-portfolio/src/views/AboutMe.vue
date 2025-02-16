@@ -1,11 +1,10 @@
 <template>
   <div class="about">
-    <img src="../assets/profile2.jpg" alt="">
+    <img src="../assets/profile_2.png" alt="">
     <div>
       <h1>My Biography</h1>
       <hr/>
-      <p>I&apos;m a software developer with a passion for backend systems, automation, and testing. My journey began with an NQF Level 5 certification in IT Systems Development, where I built a strong foundation in software engineering. I later expanded my knowledge through CS50, refining my problem-solving skills. With hands-on experience in multiple programming languages and frameworks, I thrive on building efficient, scalable applications that solve real-world problems. I&apos;m always eager to explore new technologies and enhance my expertise.</p>
-      <p>Beyond development, I hold an FMVA certification, blending technical and financial insights. I enjoy working on challenging projects, constantly improving my skills, and sharing knowledge with the tech community. My goal is to create impactful solutions through continuous learning and innovation.</p>
+      <p>I&apos;m a software developer specializing in backend systems, automation, and testing. With an NQF Level 5 certification in IT Systems Development and CS50 experience, I&apos;ve built a strong foundation in software engineering and problem-solving. I also hold an FMVA certification, combining technical and financial expertise. Passionate about continuous learning, I thrive on challenging projects and building impactful solutions.</p>
       <h2>Skills & Tools</h2>
       <div class="mySkills">
         <p>Python</p>
