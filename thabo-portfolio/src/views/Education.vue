@@ -1,9 +1,9 @@
 <template>
     <div class="education">
-      <h1 class="heading">2023-202X</h1>
+      
       <div class="certificates">
         <div class="about">
-          <h1>Education</h1>
+          <h1 class="heading_">Education</h1>
           <hr/>
           <p>My learning journey blends software development, computer science, and financial analysis. I earned an NQF Level 5 certification in IT Systems Development, strengthening my technical foundation before diving deeper into CS50. With additional expertise in financial modeling, I&apos;m always expanding my skill set to tackle real-world challenges.</p>
         </div>
@@ -30,15 +30,7 @@
 
 <style scoped>
   
-  .heading{
-    text-align: right;
-    font-size: 3.5rem;
-    margin-right: 12rem;
-    justify-content: space-between;
-    font-size: 4rem;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-  }
+  
   hr{
     width: 40%;
     border-top: 0.4rem solid #38b6ff;
@@ -76,12 +68,11 @@
 
   @media screen and (max-width: 768px) {
     hr {
-      width: 100%;
-      max-width: 15rem;
+      display: none;
     }
-    .heading {
+    .heading_ {
       font-size: 2rem;
-      margin: 0 auto;
+      margin: 1.6rem auto;
     }
 
     .certificates {

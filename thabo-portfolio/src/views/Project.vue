@@ -23,7 +23,7 @@ const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
   <div class="project">
     <div class="heading">
       <p>My Projects</p>
-      <p>2023-202X</p>
+      <!-- <p>2023-202X</p> -->
     </div>
     <hr/>
   
@@ -115,6 +115,10 @@ const randomProjects = computed(() => shuffleArray(projects.value).slice(0,3))
     flex-direction: column;
     align-items: center; 
     text-align: center;
+  }
+
+  hr{
+    display: none;
   }
 
   .heading p:first-child {
