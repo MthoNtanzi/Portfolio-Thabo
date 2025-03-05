@@ -46,5 +46,14 @@
       "image_path": "quiz.jpg",
       "repo_link": "https://github.com/ThaboChauke/quiz-web-based-app",
       "host_link": "https://quiz-web-based-app.onrender.com/"
-  }
+  },
+  {
+    "id": 7,
+    "project_name": "From Now Calculator",
+    "project_description": "A tool that calculates the time difference between the current date and a specified future date, displaying the results.",
+    "image_path": "from_now_calculator.jpg",
+    "repo_link": "https://github.com/ThaboChauke/from-now-calculator.git",
+    "host_link": "https://from-now.netlify.app/"
+   }
+
 ]

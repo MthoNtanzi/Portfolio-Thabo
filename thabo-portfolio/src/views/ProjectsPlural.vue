@@ -11,7 +11,7 @@ const projects = ref(projectData)
     <div class="project">
       <div class="heading">
         <p>My Projects</p>
-        // <p>2023-202X</p>
+         <p>2023-202X</p>
       </div>
       <hr/>
     
